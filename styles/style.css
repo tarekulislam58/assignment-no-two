@@ -14,7 +14,7 @@ nav {
     justify-content: space-between;
 }
 
-.nav-title {
+.title {
     color: #131313;
     font-size: 45px;
 }
@@ -127,7 +127,7 @@ nav li {
 .para {
     font-size: 16px;
     color: #727272;
-padding: 10px 40px 30px 30px;
+    padding: 10px 40px 30px 30px;
 
 }
 
@@ -137,13 +137,12 @@ padding: 10px 40px 30px 30px;
     width: 342px;
     height: 200px;
     border: none;
-  transform: translateY(-205px) translateX(-50px)
-
+    transform: translateY(-205px) translateX(-50px)
 }
 
 .sub-title {
     border: 1px solid white;
-    
+
     margin-top: 30px;
     width: 586px;
     height: 120px;
@@ -153,7 +152,7 @@ padding: 10px 40px 30px 30px;
 .main-sub-title {
     font-size: 20px;
     color: #131313;
-    padding-left: 30px ;
+    padding-left: 30px;
 }
 
 .sub-title {}
@@ -166,4 +165,85 @@ padding: 10px 40px 30px 30px;
 
 .sec-three-photo img {
     margin: 130px 240px 0px 0px;
+}
+
+/* section four styles */
+.sec-four-info {
+    margin: 0px 1400px 0px 240px;
+}
+
+.sec-four-title {
+    color: #131313;
+    font-size: 45px;
+}
+
+.sec-four-para {
+    font-size: 16px;
+    width: 400px;
+    color: #727272;
+}
+
+.info-box {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 290px 0px 290px;
+}
+
+.materials {
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    width: 242px;
+    height: 242px;
+
+
+}
+
+.materials img {
+
+    margin: 46px 98px 10px 98px;
+}
+
+.material-title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 45px;
+    color: #727272;
+
+}
+
+.material-para {
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+
+}
+
+/* section five styles */
+
+.sec-five-title{
+font-size: 45px;
+color: #131313;
+margin: 180px 797px 0px 797px;
+justify-content: center;
+}
+.sec-five-para{
+    font-size: 16px;
+    width: 400px;
+    color: #727272;
+  padding: 25px 690px 0px 690px ;
+  width: 542px;
+height: 52px;
+text-align: center;
+   
+}
+.sponspors{
+display: flex;
+justify-content: space-around;
+margin: 50px 240px 0px 240px ;
+
+}
+.sponspors img{
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
 }
